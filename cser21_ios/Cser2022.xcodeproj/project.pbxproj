@@ -23,7 +23,7 @@
 		18D9AAF424504B8E0080BFCA /* Fetch21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9AAF324504B8D0080BFCA /* Fetch21.swift */; };
 		18DED9D1243D7745001771B2 /* Noti21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DED9D0243D7745001771B2 /* Noti21.swift */; };
 		18DED9D3243D783B001771B2 /* SERVER_NOTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DED9D2243D783B001771B2 /* SERVER_NOTI.swift */; };
-		24CE035C400C488A7D0C90D6 /* Pods_Cser2022.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52943B9982354189988E857D /* Pods_Cser2022.framework */; };
+		20E761502C5B799100A4B745 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20E7614F2C5B799100A4B745 /* GoogleService-Info.plist */; };
 		349088FA241B8A3D004AD9A0 /* embed.html in Resources */ = {isa = PBXBuildFile; fileRef = 349088F9241B8A3D004AD9A0 /* embed.html */; };
 		34B77787241B82EA00787FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B77786241B82EA00787FE3 /* AppDelegate.swift */; };
 		34B77789241B82EA00787FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B77788241B82EA00787FE3 /* ViewController.swift */; };
@@ -32,9 +32,9 @@
 		34B77791241B82EB00787FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B7778F241B82EB00787FE3 /* LaunchScreen.storyboard */; };
 		34B7779C241B82EB00787FE3 /* Cser21Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7779B241B82EB00787FE3 /* Cser21Tests.swift */; };
 		34B777A7241B82EB00787FE3 /* Cser21UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B777A6241B82EB00787FE3 /* Cser21UITests.swift */; };
-		837315E63F855670BEC96B6F /* Pods_Cser2022Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18115E60594346EED993529E /* Pods_Cser2022Tests.framework */; };
-		B7520C6927577DEC00A49021 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7520C6827577DEC00A49021 /* GoogleService-Info.plist */; };
-		DC50EE2E3F45B1CE9F62587C /* Pods_Cser2022_Cser2022UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ADBA2F33D741BFDB9DD15F /* Pods_Cser2022_Cser2022UITests.framework */; };
+		A6A7D9929587A0D94287A154 /* Pods_Cser2022_Cser2022UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E78291AD787C35E9184E23 /* Pods_Cser2022_Cser2022UITests.framework */; };
+		D70504E247B594966D646C50 /* Pods_Cser2022.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709F140E60FAFEA01CB71197 /* Pods_Cser2022.framework */; };
+		EF46FEE2EE4DC34566059569 /* Pods_Cser2022Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EF1AA713FC6342F294DA5B /* Pods_Cser2022Tests.framework */; };
 		EF94C6E9277D500E0015CCA5 /* QrCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94C6E8277D500E0015CCA5 /* QrCodeController.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,8 +69,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1425F8F02E62CB73D07922E2 /* Pods-Cser2022Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022Tests.debug.xcconfig"; path = "Target Support Files/Pods-Cser2022Tests/Pods-Cser2022Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		18115E60594346EED993529E /* Pods_Cser2022Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cser2022Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0717AC04FF5D397D25AAC595 /* Pods-Cser2022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022.debug.xcconfig"; path = "Target Support Files/Pods-Cser2022/Pods-Cser2022.debug.xcconfig"; sourceTree = "<group>"; };
 		181663FD243CF2930097A451 /* ImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
 		1816C8B72426EFAB009D326D /* LocalScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalScheme.swift; sourceTree = "<group>"; };
 		181E40812426573E00FFB738 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
@@ -91,7 +90,8 @@
 		18D9AAF324504B8D0080BFCA /* Fetch21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch21.swift; sourceTree = "<group>"; };
 		18DED9D0243D7745001771B2 /* Noti21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noti21.swift; sourceTree = "<group>"; };
 		18DED9D2243D783B001771B2 /* SERVER_NOTI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SERVER_NOTI.swift; sourceTree = "<group>"; };
-		1A7C8C9C8CD878D00CB3D721 /* Pods-Cser2022.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022.release.xcconfig"; path = "Target Support Files/Pods-Cser2022/Pods-Cser2022.release.xcconfig"; sourceTree = "<group>"; };
+		20E7614F2C5B799100A4B745 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		31EF1AA713FC6342F294DA5B /* Pods_Cser2022Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cser2022Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		349088F8241B88A9004AD9A0 /* Cser21.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cser21.entitlements; sourceTree = "<group>"; };
 		349088F9241B8A3D004AD9A0 /* embed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = embed.html; sourceTree = SOURCE_ROOT; };
 		34B77783241B82EA00787FE3 /* Cser2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cser2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,13 +107,13 @@
 		34B777A2241B82EB00787FE3 /* Cser2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cser2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B777A6241B82EB00787FE3 /* Cser21UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cser21UITests.swift; sourceTree = "<group>"; };
 		34B777A8241B82EB00787FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		398FBBB3DDA58DD37AFFC7FD /* Pods-Cser2022-Cser2022UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022-Cser2022UITests.debug.xcconfig"; path = "Target Support Files/Pods-Cser2022-Cser2022UITests/Pods-Cser2022-Cser2022UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		52943B9982354189988E857D /* Pods_Cser2022.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cser2022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CB32853E8F209EB6596C102 /* Pods-Cser2022-Cser2022UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022-Cser2022UITests.release.xcconfig"; path = "Target Support Files/Pods-Cser2022-Cser2022UITests/Pods-Cser2022-Cser2022UITests.release.xcconfig"; sourceTree = "<group>"; };
-		85ADBA2F33D741BFDB9DD15F /* Pods_Cser2022_Cser2022UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cser2022_Cser2022UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98A90D234189C615B15BCA0D /* Pods-Cser2022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022.debug.xcconfig"; path = "Target Support Files/Pods-Cser2022/Pods-Cser2022.debug.xcconfig"; sourceTree = "<group>"; };
-		B7520C6827577DEC00A49021 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		B7FB8EC1BE7042A1235D332F /* Pods-Cser2022Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022Tests.release.xcconfig"; path = "Target Support Files/Pods-Cser2022Tests/Pods-Cser2022Tests.release.xcconfig"; sourceTree = "<group>"; };
+		68ED070BC98416986444C84B /* Pods-Cser2022Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022Tests.release.xcconfig"; path = "Target Support Files/Pods-Cser2022Tests/Pods-Cser2022Tests.release.xcconfig"; sourceTree = "<group>"; };
+		709F140E60FAFEA01CB71197 /* Pods_Cser2022.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cser2022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E78291AD787C35E9184E23 /* Pods_Cser2022_Cser2022UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cser2022_Cser2022UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2A393C5A38D761448C3548 /* Pods-Cser2022Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022Tests.debug.xcconfig"; path = "Target Support Files/Pods-Cser2022Tests/Pods-Cser2022Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD2E6BEC8DEBF48CE6308959 /* Pods-Cser2022-Cser2022UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022-Cser2022UITests.debug.xcconfig"; path = "Target Support Files/Pods-Cser2022-Cser2022UITests/Pods-Cser2022-Cser2022UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7CCDB6705FAB0AE9D1A0AF2 /* Pods-Cser2022.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022.release.xcconfig"; path = "Target Support Files/Pods-Cser2022/Pods-Cser2022.release.xcconfig"; sourceTree = "<group>"; };
+		ED41391866DD9EE0D440A614 /* Pods-Cser2022-Cser2022UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cser2022-Cser2022UITests.release.xcconfig"; path = "Target Support Files/Pods-Cser2022-Cser2022UITests/Pods-Cser2022-Cser2022UITests.release.xcconfig"; sourceTree = "<group>"; };
 		EF94C6E8277D500E0015CCA5 /* QrCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24CE035C400C488A7D0C90D6 /* Pods_Cser2022.framework in Frameworks */,
+				D70504E247B594966D646C50 /* Pods_Cser2022.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837315E63F855670BEC96B6F /* Pods_Cser2022Tests.framework in Frameworks */,
+				EF46FEE2EE4DC34566059569 /* Pods_Cser2022Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC50EE2E3F45B1CE9F62587C /* Pods_Cser2022_Cser2022UITests.framework in Frameworks */,
+				A6A7D9929587A0D94287A154 /* Pods_Cser2022_Cser2022UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,12 +157,12 @@
 		2F1B0E133022B661D223817B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				98A90D234189C615B15BCA0D /* Pods-Cser2022.debug.xcconfig */,
-				1A7C8C9C8CD878D00CB3D721 /* Pods-Cser2022.release.xcconfig */,
-				398FBBB3DDA58DD37AFFC7FD /* Pods-Cser2022-Cser2022UITests.debug.xcconfig */,
-				5CB32853E8F209EB6596C102 /* Pods-Cser2022-Cser2022UITests.release.xcconfig */,
-				1425F8F02E62CB73D07922E2 /* Pods-Cser2022Tests.debug.xcconfig */,
-				B7FB8EC1BE7042A1235D332F /* Pods-Cser2022Tests.release.xcconfig */,
+				0717AC04FF5D397D25AAC595 /* Pods-Cser2022.debug.xcconfig */,
+				E7CCDB6705FAB0AE9D1A0AF2 /* Pods-Cser2022.release.xcconfig */,
+				CD2E6BEC8DEBF48CE6308959 /* Pods-Cser2022-Cser2022UITests.debug.xcconfig */,
+				ED41391866DD9EE0D440A614 /* Pods-Cser2022-Cser2022UITests.release.xcconfig */,
+				CD2A393C5A38D761448C3548 /* Pods-Cser2022Tests.debug.xcconfig */,
+				68ED070BC98416986444C84B /* Pods-Cser2022Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 		34B77785241B82EA00787FE3 /* Cser21 */ = {
 			isa = PBXGroup;
 			children = (
-				B7520C6827577DEC00A49021 /* GoogleService-Info.plist */,
+				20E7614F2C5B799100A4B745 /* GoogleService-Info.plist */,
 				18D1BE3F24558950001B95F7 /* fonts */,
 				183E4580244AEBD700E6AB75 /* embed21.html */,
 				349088F9241B8A3D004AD9A0 /* embed.html */,
@@ -246,9 +246,9 @@
 			children = (
 				18D8AD63243DC8C300976BF4 /* UserNotifications.framework */,
 				18D8AD65243DC8C300976BF4 /* UserNotificationsUI.framework */,
-				52943B9982354189988E857D /* Pods_Cser2022.framework */,
-				85ADBA2F33D741BFDB9DD15F /* Pods_Cser2022_Cser2022UITests.framework */,
-				18115E60594346EED993529E /* Pods_Cser2022Tests.framework */,
+				709F140E60FAFEA01CB71197 /* Pods_Cser2022.framework */,
+				B5E78291AD787C35E9184E23 /* Pods_Cser2022_Cser2022UITests.framework */,
+				31EF1AA713FC6342F294DA5B /* Pods_Cser2022Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -260,12 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34B777AB241B82EB00787FE3 /* Build configuration list for PBXNativeTarget "Cser2022" */;
 			buildPhases = (
-				3FB20F6E32F4D9BFFA26D362 /* [CP] Check Pods Manifest.lock */,
+				902BB928CF2020595E0D17D5 /* [CP] Check Pods Manifest.lock */,
 				34B7777F241B82EA00787FE3 /* Sources */,
 				34B77780241B82EA00787FE3 /* Frameworks */,
 				34B77781241B82EA00787FE3 /* Resources */,
 				18D8AD5D243DC83300976BF4 /* Embed App Extensions */,
-				B14BC52A727EF52D144AA4EA /* [CP] Embed Pods Frameworks */,
+				4398120A0F5D08C6A9F16584 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,7 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34B777AE241B82EB00787FE3 /* Build configuration list for PBXNativeTarget "Cser2022Tests" */;
 			buildPhases = (
-				6D84448B1CD521B83E84A933 /* [CP] Check Pods Manifest.lock */,
+				BF46FE068F8617BEF4C25BC8 /* [CP] Check Pods Manifest.lock */,
 				34B77793241B82EB00787FE3 /* Sources */,
 				34B77794241B82EB00787FE3 /* Frameworks */,
 				34B77795241B82EB00787FE3 /* Resources */,
@@ -299,11 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34B777B1241B82EB00787FE3 /* Build configuration list for PBXNativeTarget "Cser2022UITests" */;
 			buildPhases = (
-				00B13E81DA835EEF856368F8 /* [CP] Check Pods Manifest.lock */,
+				1E79FDBD9A6AEC13B0DBCC37 /* [CP] Check Pods Manifest.lock */,
 				34B7779E241B82EB00787FE3 /* Sources */,
 				34B7779F241B82EB00787FE3 /* Frameworks */,
 				34B777A0241B82EB00787FE3 /* Resources */,
-				C690C5956ECB5D00DBAB4862 /* [CP] Embed Pods Frameworks */,
+				C48E7B2941ED09EEC2F4E44A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -377,7 +377,7 @@
 				183E4581244AEBD800E6AB75 /* embed21.html in Resources */,
 				34B7778E241B82EB00787FE3 /* Assets.xcassets in Resources */,
 				34B7778C241B82EA00787FE3 /* Main.storyboard in Resources */,
-				B7520C6927577DEC00A49021 /* GoogleService-Info.plist in Resources */,
+				20E761502C5B799100A4B745 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +398,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00B13E81DA835EEF856368F8 /* [CP] Check Pods Manifest.lock */ = {
+		1E79FDBD9A6AEC13B0DBCC37 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,7 +420,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3FB20F6E32F4D9BFFA26D362 /* [CP] Check Pods Manifest.lock */ = {
+		4398120A0F5D08C6A9F16584 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cser2022/Pods-Cser2022-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cser2022/Pods-Cser2022-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cser2022/Pods-Cser2022-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902BB928CF2020595E0D17D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,7 +459,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D84448B1CD521B83E84A933 /* [CP] Check Pods Manifest.lock */ = {
+		BF46FE068F8617BEF4C25BC8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -464,24 +481,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B14BC52A727EF52D144AA4EA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cser2022/Pods-Cser2022-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cser2022/Pods-Cser2022-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cser2022/Pods-Cser2022-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C690C5956ECB5D00DBAB4862 /* [CP] Embed Pods Frameworks */ = {
+		C48E7B2941ED09EEC2F4E44A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -696,14 +696,14 @@
 		};
 		34B777AC241B82EB00787FE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98A90D234189C615B15BCA0D /* Pods-Cser2022.debug.xcconfig */;
+			baseConfigurationReference = 0717AC04FF5D397D25AAC595 /* Pods-Cser2022.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Cser21/Cser21.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6.1;
+				CURRENT_PROJECT_VERSION = 6.2;
 				DEVELOPMENT_TEAM = 882HLDS64C;
 				INFOPLIST_FILE = Cser21/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cser Beauty";
@@ -712,7 +712,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 15;
+				MARKETING_VERSION = 16;
 				PRODUCT_BUNDLE_IDENTIFIER = vn.cser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -723,14 +723,14 @@
 		};
 		34B777AD241B82EB00787FE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A7C8C9C8CD878D00CB3D721 /* Pods-Cser2022.release.xcconfig */;
+			baseConfigurationReference = E7CCDB6705FAB0AE9D1A0AF2 /* Pods-Cser2022.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Cser21/Cser21.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6.1;
+				CURRENT_PROJECT_VERSION = 6.2;
 				DEVELOPMENT_TEAM = 882HLDS64C;
 				INFOPLIST_FILE = Cser21/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cser Beauty";
@@ -739,7 +739,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 15;
+				MARKETING_VERSION = 16;
 				PRODUCT_BUNDLE_IDENTIFIER = vn.cser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -750,7 +750,7 @@
 		};
 		34B777AF241B82EB00787FE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1425F8F02E62CB73D07922E2 /* Pods-Cser2022Tests.debug.xcconfig */;
+			baseConfigurationReference = CD2A393C5A38D761448C3548 /* Pods-Cser2022Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -772,7 +772,7 @@
 		};
 		34B777B0241B82EB00787FE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7FB8EC1BE7042A1235D332F /* Pods-Cser2022Tests.release.xcconfig */;
+			baseConfigurationReference = 68ED070BC98416986444C84B /* Pods-Cser2022Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -794,7 +794,7 @@
 		};
 		34B777B2241B82EB00787FE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 398FBBB3DDA58DD37AFFC7FD /* Pods-Cser2022-Cser2022UITests.debug.xcconfig */;
+			baseConfigurationReference = CD2E6BEC8DEBF48CE6308959 /* Pods-Cser2022-Cser2022UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -815,7 +815,7 @@
 		};
 		34B777B3241B82EB00787FE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CB32853E8F209EB6596C102 /* Pods-Cser2022-Cser2022UITests.release.xcconfig */;
+			baseConfigurationReference = ED41391866DD9EE0D440A614 /* Pods-Cser2022-Cser2022UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
